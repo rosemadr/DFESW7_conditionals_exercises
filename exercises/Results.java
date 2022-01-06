@@ -10,12 +10,14 @@ package conditionals.exercises;
 //Try to make the output neat and bespoke for each exam.
 //    Method 2 - which finds and displays the percentage that the person received for the exams overall.
 
+//Expand the Results class so that there is now a pass mark of 60%; 
+// if the person receives under 60% they get a fail message.
 
 public class Results {
 	
-	int Physics = 130;
-	int Chemistry = 110;
-	int Biology = 135;
+	int Physics = 99;
+	int Chemistry = 40;
+	int Biology = 130;
 	int total;
 	int percentage;
 	
@@ -33,6 +35,9 @@ public class Results {
 		percentage = total * 100 / 450;
 		
 		System.out.println("Overall percentage is " + percentage + "%");
+		
+		if (percentage < 60) {
+			System.out.println("Unfortunately you did not achieve 60%, that is a FAIL.");		}
 	}
 	
 	

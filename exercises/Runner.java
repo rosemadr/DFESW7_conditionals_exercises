@@ -6,7 +6,7 @@ public class Runner {
 		
 		Results Student1 = new Results();
 		
-		Student1.SubjectMarks();
+		// Student1.SubjectMarks();
 		
 		Student1.OverallPercentage();
 		
