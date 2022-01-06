@@ -48,7 +48,8 @@ public class Results {
 			System.out.println("Unfortunately you did not achieve 60%, that is a FAIL.");
 		} else if (BioPercent < 60 || PhysPercent > 60 || ChemPercent > 60) {
 			System.out.println("Whilst you achieved over 60% overall, unfortunately you FAILED a class");
-
+		} else {
+			System.out.println("You passed, well done.");
 		}
 
 		// Expand the previous example so that even if the person gets higher than 60%
